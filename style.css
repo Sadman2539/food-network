@@ -4,13 +4,23 @@ body{
     
 }
 h1{
+    color: rgb(166, 227, 252);
+    font-weight: 700;
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color: gray;
+}
+h3{
+    font-size: 30px;
 }
 p{
     font-size: 20px;
+    color: gray;
 }
 .color-text{
-    color: royalblue;
+    color: rgb(87, 114, 194);
 }
 .top-section{
     display: flex;
@@ -21,11 +31,13 @@ p{
 
 .half-width{
     width: 50%;
+    height: auto;
     padding-left: 10px;
 }
 
 .half-width img{
     width: 90%;
+    
     
 }
 
@@ -37,8 +49,39 @@ p{
     background-image: linear-gradient(rgb(253, 177, 177), rgb(192, 65, 65));
 }
 .about-us-section{
+    
     display: flex;
     padding: 10%;
     background-image: url(images/about-me-bg.png);
     background-repeat: no-repeat;
+}
+#recipie-section{
+    background-color: rgb(235, 232, 232);
+}
+#recipie-text{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+#recipie-area{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recipie-item{
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+}
+    
+
+.recipie-item img{
+    width: 100%;
 }
