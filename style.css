@@ -10,7 +10,7 @@ h1{
 }
 h2{
     font-size: 40px;
-    color: gray;
+    color: rgb(99, 97, 97);
 }
 h3{
     font-size: 30px;
@@ -20,7 +20,7 @@ p{
     color: gray;
 }
 .color-text{
-    color: rgb(87, 114, 194);
+    color: rgb(236,146,146);
 }
 .top-section{
     display: flex;
@@ -55,16 +55,14 @@ p{
     background-image: url(images/about-me-bg.png);
     background-repeat: no-repeat;
 }
-#recipie-section{
-    background-color: rgb(235, 232, 232);
-}
+
 #recipie-text{
     text-align: center;
     padding-left: 20%;
     padding-right: 20%;
     
 }
-#recipie-area{
+#recipie-area, #users-section{
     
     display: flex;
     justify-content: center;
@@ -79,9 +77,31 @@ p{
     margin: 40px;
     padding: 20px;
     background-color: white;
+    box-shadow: 5px 5px 50px  rgb(199, 197, 197);
 }
     
 
 .recipie-item img{
     width: 100%;
+}
+
+#users-section{
+    box-shadow: 5px 5px 50px  rgb(199, 197, 197);
+    border-radius: 20px;
+    margin: 100px;
+}
+
+#users-section div{
+    padding: 10px 100px ;
+    text-align: center;
+}
+
+#users-section div h1{
+    color: rgb(22, 15, 15);
+}
+footer{
+    color: rgb(22, 15, 15);
+    text-align: center;
+    background-color:  rgb(22, 15, 15);
+    padding: 20px 0;
 }
